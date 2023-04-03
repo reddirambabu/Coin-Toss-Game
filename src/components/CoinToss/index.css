@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#e2a139, #f9d423, #a35200);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.app-card-container {
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.app-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #a35200;
+}
+.app-sub-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #191ceb;
+}
+.toss-coin-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #191ceb;
+  background-color: #e2a139;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.toss-image {
+  width: 200px;
+  height: 200px;
+}
